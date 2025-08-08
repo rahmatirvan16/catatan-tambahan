@@ -114,6 +114,26 @@
   ```
   <img width="908" height="344" alt="image" src="https://github.com/user-attachments/assets/6fd2af6c-6401-4c4d-8ada-88f5c55c86eb" />
 
+* Javascript-Dasar/switch.js
+  <br> penggunaan switch
+  ```
+  var item = prompt('masukkan nama makanan/minuman: \n (cth: nasi, daging, susu, soda, hamburger, kentang)');
+  switch (item) {
+    case 'nasi':
+    case 'daging':
+    case 'susu':
+        alert('makanan/minuman SEHAT');
+        break;
+    case 'hamburger':
+    case 'softdrink':
+        alert('makanan/minuman TIDAK SEHAT');
+        break;
+    default:
+        alert('anda memasukkan makanan/minuman yang salah');
+        break;
+  }
+  ```
+  <img width="681" height="221" alt="image" src="https://github.com/user-attachments/assets/3d5939fb-8830-464b-bcfe-590bc65e0c1d" />
 
   
 ### Javascript Lanjutan
